@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .nav-name,
+  .nav-job {
+    display: none; /* Hide nav-name and nav-job on tablet size */
+  }
+  .gap-line-right {
+    border: none;
+  }
+}

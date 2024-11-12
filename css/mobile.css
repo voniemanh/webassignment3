@@ -1,0 +1,23 @@
+@media (max-width: 576px) {
+  .navbar {
+    display: block;
+    border: none;
+  }
+  .navbar li {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+  .navbar a {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .sns {
+    display: none;
+  }
+  .navbar {
+    margin-right: auto;
+    margin-left: 0px;
+  }
+}

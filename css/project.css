@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #808180;
+  line-height: 1.5;
+}
+
+h4,
+h6 {
+  color: black;
+}
+p {
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  padding: 1rem 1rem;
+  background-color: blue;
+}
+.area {
+  background-color: rgb(239, 237, 237);
+  height: 100%;
+}
+.area-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #1c1cd9;
+}
+.area-content {
+  color: #555;
+}
+.full-height {
+  height: calc(100vh + 1rem);
+}
+.half-height {
+  height: 50vh;
+}
+.underline {
+  border-bottom: 1px solid #c5bfbf;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+.flexstart {
+  align-items: flex-start;
+}
+
+i {
+  font-size: 30px;
+  color: black;
+}
+.scope {
+  align-items: flex-start;
+}
+
+/* design icon circle */
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #9e88ff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: 1px solid rgb(106, 106, 106);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .half-height {
+    height: auto; /* Set height to auto for tablet and mobile */
+  }
+  .full-height {
+    height: auto; /* Set height to auto for tablet and mobile */
+  }
+}

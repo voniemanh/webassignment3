@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: auto;
+  width: 90%;
+  color: #808180;
+  line-height: 1.5;
+}
+ul {
+  padding-left: 0;
+}
+h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #4e4e4e;
+}
+.container {
+  overflow: hidden;
+}
+
+/* Make border for navbar */
+.navbar {
+  display: table;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 20% 0 20%;
+}
+.navbar li {
+  display: table-cell;
+  box-sizing: border-box;
+  border: none;
+  border-right: 1px solid #c7c8c7;
+  border-left: 1px solid #c7c8c7;
+  padding: 0 20px;
+  align-content: center;
+}
+/* Make text center image */
+.cv-banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Make top image responsive */
+.imagetop {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+/* styling text and padding margin, color... */
+.name {
+  font-size: 40px;
+}
+.heading {
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.jobtarget {
+  background-color: #f5f5f5;
+  padding: 50px 30px 50px 30px;
+}
+.information {
+  background-color: #f0f0f0;
+  padding: 50px 30px 50px 30px;
+}
+.card {
+  border: 1px solid #c7c8c7;
+  padding: 50px 10px 50px 10px;
+  margin: 0px;
+}
+.nav-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav-job {
+  font-size: 12px;
+  color: grey;
+}
+.smallheading {
+  font-weight: 500;
+  color: #4e4e4e;
+}
+
+/* Make link effect */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(63, 178, 207);
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(22, 90, 200);
+}
+a:active {
+  background-color: rgb(129, 194, 222);
+  font-style: italic;
+}
+/* Make icon float right */
+.icontitle::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.section-title {
+  float: left;
+}
+i {
+  float: right;
+  font-size: 35px;
+  color: #555755;
+  margin-bottom: 20px;
+}
+
+/* Make icon hobby circle */
+.d-flex i {
+  color: #34a7de;
+  border-radius: 50%;
+  border: solid 1px;
+  border-color: #34a7de;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-content: center;
+  font-size: 20px;
+}
+
+.info-icon {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.info-icon li {
+  display: inline-block;
+}
+.btn-now {
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+/* make blue radius button */
+.radiusbtn {
+  background-color: #34a7de;
+  border-radius: 9px;
+  padding: 2px 15px;
+  color: white;
+  text-align: center;
+}
+.custom-width {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+/* styling image in certification */
+.certiimg {
+  width: 100%;
+  height: auto;
+}
+.certi {
+  text-align: left;
+  margin-top: 15px;
+}
+
+/* design project area */
+table {
+  table-layout: fixed;
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+  color: #4e4e4e;
+}
+.col1 {
+  width: 25%;
+}
+td,
+th {
+  padding: 10px 0px 10px 10px;
+  vertical-align: top;
+}
+tr {
+  border-top: 1px solid #c7c8c7;
+}
+td:first-child {
+  font-weight: bold;
+}
+.fontweight-normal {
+  font-weight: normal;
+}
+/* Make level bar in skills area*/
+.bar {
+  display: flex;
+  gap: 5px;
+  column-gap: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+}
+.bluebar {
+  border-bottom: 2px solid #34a7de;
+  width: 90%;
+}
+.greybar {
+  border-bottom: 2px solid #c7c8c7;
+  width: 90%;
+}
+/* Make list style circle */
+.section-content li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1em;
+}
+.section-content li:before {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  content: "";
+  background: #34a7de;
+}
+.space {
+  margin-top: 20px;
+}
+/* footer */
+footer {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+
+/* line in gap or certification area */
+.gap-line-bottom {
+  border-bottom: 1px solid #dac79a;
+}
+.gap-line-right {
+  border-right: 1px solid #dac79a;
+}
+.card-body {
+  padding: 0;
+}
+/* styling favourite area */
+.container {
+  padding: 0;
+}
+.flex-item {
+  flex: 1 1 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  flex-direction: column;
+}
+.flex-item i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.flex-item div {
+  font-size: 1rem;
+}
+.favorite {
+  width: 100%;
+}
+/* enter email to show info */
+#showinfo {
+  display: none;
+}
+/* show/hide skill content */
+.view-btn {
+  visibility: hidden;
+  cursor: pointer;
+}
+.section:hover .view-btn {
+  visibility: visible;
+}
+.section:not(.active) .section-content {
+  display: none;
+}
+.section:not(.active) .view-less {
+  display: none;
+}
+.section.active .view-more {
+  display: none;
+}
+.btn-outline-warning {
+  width: 200px;
+}
