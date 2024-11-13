@@ -6,4 +6,7 @@
   .gap-line-right {
     border: none;
   }
+  #cv {
+    max-width: 100%;
+  }
 }
