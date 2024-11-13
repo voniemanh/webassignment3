@@ -25,10 +25,6 @@ h4 {
 section.container {
   max-width: 100%;
 }
-
-#cv {
-  max-width: 95%;
-}
 /* Make border for navbar */
 .navbar {
   display: table;
