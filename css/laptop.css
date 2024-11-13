@@ -18,15 +18,9 @@ h4 {
   margin-bottom: 10px;
   color: #4e4e4e;
 }
-.container {
-  overflow: hidden;
+.row {
+  margin: 0;
 }
-
-#info,
-#certification {
-  max-width: 100%;
-}
-
 /* Make border for navbar */
 .navbar {
   display: table;
@@ -304,4 +298,10 @@ footer {
 }
 .btn-outline-warning {
   width: 200px;
+}
+
+.container,
+.container-md,
+.container-sm {
+  max-width: 100%;
 }
