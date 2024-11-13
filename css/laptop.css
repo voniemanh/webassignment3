@@ -22,15 +22,18 @@ h4 {
   overflow: hidden;
 }
 
-section.container {
+#info,
+#certification {
   max-width: 100%;
 }
+
 /* Make border for navbar */
 .navbar {
   display: table;
   border-collapse: collapse;
   text-align: center;
   margin: 0 20% 0 20%;
+  justify-items: center;
 }
 .navbar li {
   display: table-cell;
@@ -38,7 +41,7 @@ section.container {
   border: none;
   border-right: 1px solid #c7c8c7;
   border-left: 1px solid #c7c8c7;
-  padding: 0 20px;
+  padding: 5px 20px;
   align-content: center;
 }
 /* Make text center image */
