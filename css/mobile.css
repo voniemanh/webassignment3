@@ -20,4 +20,7 @@
     margin-right: auto;
     margin-left: 0px;
   }
+  #cv {
+    max-width: 100%;
+  }
 }
