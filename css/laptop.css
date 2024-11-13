@@ -22,6 +22,9 @@ h4 {
   margin: 0;
 }
 /* Make border for navbar */
+nav {
+  justify-items: center;
+}
 .navbar {
   display: table;
   border-collapse: collapse;
